@@ -1,4 +1,3 @@
-# tf_lite_android
 ## অ্যান্ড্রয়েড অ্যাপের জন্য "এমনিস্ট" হাতে লেখা ডিজিট চিনতে মডেল ট্রেনিং
 
 "হাতেকলমে পাইথন ডিপ লার্নিং" বইয়ের জন্য ডিপ লার্নিং মডেল ব্যবহার করে অ্যান্ড্রয়েড অ্যাপ
@@ -30,7 +29,7 @@ https://rakibul-hassan.gitbook.io/deep-learning/start-page/app_training
 3. একটা ফোল্ডারকে দেখিয়ে দেই যেটা আমরা এক্সট্র্যাক্ট করেছিলাম। ফোল্ডারের নাম হচ্ছে lite/codelabs/digit\_classifier/android/start/
 4. ইমপোর্ট প্রসেসটাকে শেষ পর্যন্ত চলতে দিতে হবে। 
 
-![&#x9AA;&#x9C1;&#x9B0;&#x9CB; &#x9AB;&#x9CB;&#x9B2;&#x9CD;&#x9A1;&#x9BE;&#x9B0; &#x9A6;&#x9C7;&#x996;&#x9BF;&#x9DF;&#x9C7; &#x9A6;&#x9BF;&#x9A8; &#x98F;&#x996;&#x9BE;&#x9A8;&#x9C7; ](../.gitbook/assets/gra21.png)
+![&#x9AA;&#x9C1;&#x9B0;&#x9CB; &#x9AB;&#x9CB;&#x9B2;&#x9CD;&#x9A1;&#x9BE;&#x9B0; &#x9A6;&#x9C7;&#x996;&#x9BF;&#x9DF;&#x9C7; &#x9A6;&#x9BF;&#x9A8; &#x98F;&#x996;&#x9BE;&#x9A8;&#x9C7; ](https://github.com/raqueeb/deep_learning_book/blob/master/.gitbook/assets/gra21.png)
 
 **৩. আগে ডাউনলোড করা টেন্সরফ্লো লাইট মডেল রাখতে হবে অ্যাসেট ফোল্ডারে** 
 
@@ -40,7 +39,7 @@ https://rakibul-hassan.gitbook.io/deep-learning/start-page/app_training
 
 1. অ্যাপ মডিউলের build.gradle অংশে নিচের ব্লক খুঁজে বের করি। 
 
-![](../.gitbook/assets/studio12.png)
+![](https://github.com/raqueeb/deep_learning_book/blob/master/.gitbook/assets/studio12.png)
 
 ```text
 dependencies {
@@ -129,7 +128,7 @@ this.interpreter = interpreter
 interpreter?.close()
 ```
 
-![&#x987;&#x9A8;&#x9CD;&#x99F;&#x9BE;&#x9B0;&#x9AA;&#x9CD;&#x9B0;&#x9C7;&#x99F;&#x9BE;&#x9B0;&#x995;&#x9C7; &#x995;&#x9CD;&#x9B2;&#x9CB;&#x99C; &#x995;&#x9B0;&#x9C7; &#x9A6;&#x9C7;&#x987; ](../.gitbook/assets/app4.png)
+![&#x987;&#x9A8;&#x9CD;&#x99F;&#x9BE;&#x9B0;&#x9AA;&#x9CD;&#x9B0;&#x9C7;&#x99F;&#x9BE;&#x9B0;&#x995;&#x9C7; &#x995;&#x9CD;&#x9B2;&#x9CB;&#x99C; &#x995;&#x9B0;&#x9C7; &#x9A6;&#x9C7;&#x987; ](https://github.com/raqueeb/deep_learning_book/blob/master/.gitbook/assets/app4.png)
 
 **৬. টেন্সরফ্লো লাইট দিয়ে ইনফারেন্স চালাই ডিজিট চিনতে** 
 
@@ -184,13 +183,13 @@ interpreter?.run(byteBuffer, output)
 
 ১. অ্যান্ড্রয়েড ষ্টুডিওএর টুলবারে "রান" \(সবুজ রঙের প্লে স্টাইলের বাটন\)বাটন চাপ দিন। আমার হাতে একটা পুরানো স্যামসাং ফোন লাগিয়েছি পিসিতে। সেটা দেখাচ্ছে এখানে। হাতের কাছে ফোন না থাকলে একটা ইমুলেটর বেছে নিতে পারেন যেটা এখানে পিক্সেল ২ হিসেবে দেখানো আছে। পুরানো ফোনের সাপোর্টের জন্য অ্যান্ড্রয়েড ৭ এপিআই ২৪ ব্যবহার করেছি আমি। 
 
-![&#x986;&#x9B8;&#x9B2; &#x9AB;&#x9CB;&#x9A8; &#x995;&#x9BE;&#x9A8;&#x9C7;&#x995;&#x9CD;&#x99F;&#x9C7;&#x9A1; &#x985;&#x9A5;&#x9AC;&#x9BE; &#x987;&#x9AE;&#x9C1;&#x9B2;&#x9C7;&#x99F;&#x9B0;](../.gitbook/assets/image.png)
+![&#x986;&#x9B8;&#x9B2; &#x9AB;&#x9CB;&#x9A8; &#x995;&#x9BE;&#x9A8;&#x9C7;&#x995;&#x9CD;&#x99F;&#x9C7;&#x9A1; &#x985;&#x9A5;&#x9AC;&#x9BE; &#x987;&#x9AE;&#x9C1;&#x9B2;&#x9C7;&#x99F;&#x9B0;](https://github.com/raqueeb/deep_learning_book/blob/master/.gitbook/assets/image.png)
 
 ২. সত্যিকারের ফোন হলে সরাসরি অ্যাপটা চালু হবে ইনস্টলেশনের পর পরই। আর  ইমুলেটর হলে তো কথাই নেই। ছবি দেখুন। 
 
 ৩. ফোন হলে আঙ্গুল দিয়ে যেকোন ডিজিটের ছবি আঁকুন। ইমুলেটর হলে মাউস দিয়ে একটা সংখ্যা আঁকুন ফোনের ড্রয়িং প্যাডে। কি দেখছেন? প্রেডিকশন রেজাল্ট এবং কনফিডেন্স কেমন দেখছেন? এটা কিন্তু মাত্র কয়েক কিলোবাইটের মডেলের রেজাল্ট। কোন অপটিমাইজেশন নেই এখানে। 
 
-![&#x9AB;&#x9CB;&#x9A8; &#x987;&#x9AE;&#x9C1;&#x9B2;&#x9C7;&#x99F;&#x9B0;, &#x9AA;&#x9BF;&#x995;&#x9CD;&#x9B8;&#x9C7;&#x9B2; &#x9E8;](../.gitbook/assets/app34.png)
+![&#x9AB;&#x9CB;&#x9A8; &#x987;&#x9AE;&#x9C1;&#x9B2;&#x9C7;&#x99F;&#x9B0;, &#x9AA;&#x9BF;&#x995;&#x9CD;&#x9B8;&#x9C7;&#x9B2; &#x9E8;](https://github.com/raqueeb/deep_learning_book/blob/master/.gitbook/assets/app34.png)
 
 আমার কাজ ছিলো দেখানো যে মোবাইল অ্যাপে কিভাবে ডিপ লার্নিং/মেশিন লার্নিং মডেল কাজ করে। অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্ট নয়। আশা করছি আপনারা গুগল ফ্ল্যাটারের সাথে ফায়ারবেজের এমএল কিট দিয়ে আরো অনেক কিছু করতে পারবেন আজকের পর থেকে।
 
